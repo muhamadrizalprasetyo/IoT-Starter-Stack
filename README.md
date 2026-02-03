@@ -25,5 +25,14 @@ Bingung mau mulai IoT tapi nggak tahu harus instal apa saja? Ini adalah daftar s
 3. Belajar kirim data sensor ke **Serial Monitor**.
 4. Hubungkan ke WiFi dan kirim data ke Cloud.
 
----
+## 🗺️ Jalur Cepat Jadi Jago IoT
+Ikuti urutan ini supaya kamu nggak pusing di tengah jalan:
+
+| Tahap | Aktivitas | File Panduan |
+| :--- | :--- | :--- |
+| **1. Persiapan** | Instal Software & Driver | [Lihat Folder Software](./software-guide/) |
+| **2. Simulasi** | Coba rakit tanpa alat fisik | [Panduan Wokwi](./software-guide/03-simulator.md) |
+| **3. Belanja** | Beli komponen yang beneran butuh | [Daftar Belanja](./daftar-belanja.md) |
+| **4. Praktek** | Rakit alat pertamamu (Lampu Otomatis) | *Coming Soon!* |
+| **5. Error?** | Cek solusi masalahmu di sini | [Troubleshooting](./troubleshooting.md) |
 ⭐ **Kasih Star repo ini kalau menurutmu bermanfaat!**
