@@ -1,38 +1,58 @@
-# 🛠️ IoT Beginner Software Stack 2026
+# 🌌 IoT Starter Stack 2026: The Ultimate Guide
+> **Panduan Lengkap Menaklukkan Dunia Internet of Things dari Nol.**
 
-![IoT](https://img.shields.io/badge/Focus-Beginner-blue?style=for-the-badge&logo=arduino)
-![Status](https://img.shields.io/badge/Update-Februari%202026-green?style=for-the-badge)
-
-Bingung mau mulai IoT tapi nggak tahu harus instal apa saja? Ini adalah daftar software **"starter kit"** gratis yang wajib kamu punya di laptopmu.
+<p align="center">
+  <img src="https://img.shields.io/badge/Curated%20By-%5BRIZAL%5D-orange?style=for-the-badge&logo=github" alt="Watermark">
+  <img src="https://img.shields.io/badge/Batch-2026-blue?style=for-the-badge" alt="Year">
+  <img src="https://img.shields.io/badge/Perfect%20for-Beginners-green?style=for-the-badge" alt="Target">
+</p>
 
 ---
 
-## 💻 1. Editor Kode (IDE)
-* **[VS Code](https://code.visualstudio.com/)**: Editor paling populer. Tambahkan ekstensi **PlatformIO** untuk C++.
-* **[Arduino IDE 2.3+](https://www.arduino.cc/en/software)**: Paling simpel buat pemula C++.
-* **[Thonny](https://thonny.org/)**: Ringan banget buat yang mau belajar **Python/MicroPython**.
+## 💎 Filosofi Proyek
+Dibuat oleh **[MUHAMADRIZALPRASETYO]**, panduan ini dirancang untuk memangkas waktu belajarmu. Kami memisahkan antara **Dunia Digital** (Software) dan **Dunia Fisik** (Hardware) agar kamu bisa fokus menguasai satu per satu tanpa rasa bingung.
 
-## 🔌 2. Simulator (Tanpa Hardware)
-* **[Wokwi](https://wokwi.com/)**: Bisa rakit ESP32 & sensor secara online. **Gratis & Gampang!**
+---
 
-## 📊 3. Dashboard & Monitoring
-* **[Blynk](https://blynk.io/)**: Bikin aplikasi kontrol lampu di HP cuma dalam 5 menit.
-* **[MQTT Explorer](http://mqtt-explorer.com/)**: Tools wajib buat cek data yang dikirim antar perangkat.
+## 🔵 PILAR 1: THE DIGITAL ECOSYSTEM (Software)
+*Mempersiapkan lingkungan kerja yang cerdas sebelum menyentuh komponen fisik.*
 
-## 📚 4. Rekomendasi Alur Belajar
-1. Pahami dasar **Arus Listrik** (V, I, R).
-2. Install **Arduino IDE** & coba program "Blink" (Nyalain lampu).
-3. Belajar kirim data sensor ke **Serial Monitor**.
-4. Hubungkan ke WiFi dan kirim data ke Cloud.
-
-## 🗺️ Jalur Cepat Jadi Jago IoT
-Ikuti urutan ini supaya kamu nggak pusing di tengah jalan:
-
-| Tahap | Aktivitas | File Panduan |
+| Step | Modul Panduan | Kegunaan Utama |
 | :--- | :--- | :--- |
-| **1. Persiapan** | Instal Software & Driver | [Lihat Folder Software](./software-guide/) |
-| **2. Simulasi** | Coba rakit tanpa alat fisik | [Panduan Wokwi](./software-guide/03-simulator.md) |
-| **3. Belanja** | Beli komponen yang beneran butuh | [Daftar Belanja](./daftar-belanja.md) |
-| **4. Praktek** | Rakit alat pertamamu (Lampu Otomatis) | *Coming Soon!* |
-| **5. Error?** | Cek solusi masalahmu di sini | [Troubleshooting](./troubleshooting.md) |
-⭐ **Kasih Star repo ini kalau menurutmu bermanfaat!**
+| 01 | [💻 Editor Kode (IDE)](./software-guide/01-ide-editor.md) | Senjata utama untuk menulis logika program. |
+| 02 | [🔌 Driver USB Center](./software-guide/02-driver-usb.md) | Mengaktifkan jalur komunikasi PC ke Alat. |
+| 03 | [🧪 Simulator Wokwi](./software-guide/03-simulator.md) | Lab virtual untuk uji coba tanpa resiko terbakar. |
+| 04 | [📊 Cloud Dashboard](./software-guide/04-dashboard-iot.md) | Jendela untuk memantau data dari mana saja. |
+| 05 | [🎨 Design & Documentation](./software-guide/05-design-tools.md) | Cara membuat skema proyek yang "Instagrameble". |
+
+---
+
+## 🔴 PILAR 2: THE PHYSICAL FOUNDATION (Hardware)
+*Mengenal "Tubuh" dan "Indera" untuk menciptakan solusi nyata.*
+
+| Step | Modul Komponen | Kegunaan Utama |
+| :--- | :--- | :--- |
+| 01 | [🧠 Microcontroller Hub](./hardware-guide/01-microcontroller.md) | Memilih "Otak" (ESP32/Arduino) yang tepat. |
+| 02 | [👁️ Sensor Universe](./hardware-guide/02-sensors.md) | Daftar indera untuk mendeteksi suhu, jarak, & gerak. |
+| 03 | [💪 Actuator Force](./hardware-guide/03-actuators.md) | Penggerak nyata: Lampu, Motor, dan Relay. |
+| 04 | [🕸️ Nerve System](./hardware-guide/04-accessories.md) | Kabel jumper, breadboard, dan resistor pendukung. |
+| 05 | [💎 Merchant Secrets](./hardware-guide/05-shopping-tips.md) | Panduan belanja agar tidak tertipu barang palsu. |
+
+---
+
+## 🚀 JALUR AKSELERASI (Next Level)
+Sudah siap melangkah lebih jauh? Gunakan sumber daya tambahan ini:
+* 🎓 **[Pelatihan & Kursus Pilihan](./software-guide/06-tempat-belajar.md)** - Kurasi tempat belajar terbaik versi **MUHAMADRIZALPRASETYO**.
+* 🆘 **[Emergency Troubleshooting](./troubleshooting.md)** - Pertolongan pertama saat proyekmu macet.
+
+---
+
+<table align="center">
+  <tr>
+    <td align="center" width="9999">
+      <b>© 2026 Developed by MUHAMADRIZALPRASETYO</b><br>
+      <i>"Membangun Masa Depan, Satu Baris Kode di Satu Waktu."</i><br>
+      <sub>Jangan lupa klik ⭐ STAR untuk mendukung dokumentasi ini!</sub>
+    </td>
+  </tr>
+</table>
