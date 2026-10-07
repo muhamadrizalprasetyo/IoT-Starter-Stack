@@ -1,5 +1,5 @@
 # 🌌 IoT Starter Stack 2026: The Ultimate Guide
-> **Panduan Lengkap Menaklukkan Dunia Internet of Things dari Nol.**
+> **Panduan Lengkap Menaklukkan Dunia Internet of Things dari 0.**
 
 <p align="center">
   <img src="https://img.shields.io/badge/Curated%20By-%5BRIZAL%5D-orange?style=for-the-badge&logo=github" alt="Watermark">
